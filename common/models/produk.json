@@ -25,16 +25,20 @@
         "type": "number"
       },
       "isAddedToCart": {
-        "type": "boolean"
+        "type": "boolean",
+        "default": false 
       },
       "isAddedBtn": {
-        "type": "boolean"
+        "type": "boolean",        
+        "default": false
       },
       "isFavourite": {
-        "type": "boolean"
+        "type": "boolean",
+        "default": false
       },
       "quantity": {
-        "type": "number"
+        "type": "number",
+        "default": 1
       },
       "url": {
         "type": "string"
